@@ -1,0 +1,7 @@
+# JetBrains based IDEs
+/.idea/
+*.iml
+
+# Maven
+target/
+
