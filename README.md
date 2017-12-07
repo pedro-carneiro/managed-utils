@@ -34,3 +34,10 @@ Then, expose the bean through JMX:
   </property>
 </bean>
 ```
+
+## Motivation
+Thread pools are a relevant tool, when it comes to unleashing the potential of the JVM concurrency capabilities. When used along with a task queue, they can even be effectively used as rate limiters.
+
+As such, it's important to monitor these queues, to evaluate how to dimension your thread pool, and to better understand how it behaves under load.
+
+Should you collect your metrics from managed beans, then this project may be useful to you.
