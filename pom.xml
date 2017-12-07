@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.pcarneiro.utilities</groupId>
   <artifactId>managed-utils</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
 
   <name>${project.groupId}:${project.artifactId}</name>
   <description>Utility classes for exposing attributes</description>
@@ -33,6 +31,7 @@
     <developerConnection>scm:git:ssh://git@github.com/pedro-carneiro/managed-utils.git
     </developerConnection>
     <url>https://github.com/pedro-carneiro/managed-utils/tree/master</url>
+    <tag>managed-utils-0.0.1</tag>
   </scm>
 
   <properties>
