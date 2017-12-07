@@ -30,7 +30,7 @@
 
   <scm>
     <connection>scm:git:git://github.com/pedro-carneiro/managed-utils.git</connection>
-    <developerConnection>scm:git:ssh://github.com/pedro-carneiro/managed-utils.git
+    <developerConnection>scm:git:ssh://git@github.com/pedro-carneiro/managed-utils.git
     </developerConnection>
     <url>https://github.com/pedro-carneiro/managed-utils/tree/master</url>
   </scm>
