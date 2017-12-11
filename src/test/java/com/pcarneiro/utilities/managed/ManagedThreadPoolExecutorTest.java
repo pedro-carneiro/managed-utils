@@ -10,12 +10,12 @@ import org.testng.annotations.Test;
 public class ManagedThreadPoolExecutorTest {
 
   @Test(expectedExceptions = IllegalArgumentException.class)
-  public void shouldFailOnInvalidArgument() throws Exception {
+  public void shouldFailOnInvalidArgument() {
     new ManagedThreadPoolExecutor(null);
   }
 
   @Test
-  public void shouldVerifyAttributes() throws Exception {
+  public void shouldVerifyAttributes() {
     ThreadPoolExecutor executor = new ThreadPoolExecutor(
       1, 2, 50, TimeUnit.SECONDS, new ArrayBlockingQueue<>(1)
     );

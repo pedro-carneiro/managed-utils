@@ -8,12 +8,12 @@ import org.testng.annotations.Test;
 public class ManagedThreadPoolTaskSchedulerTest {
 
   @Test(expectedExceptions = IllegalArgumentException.class)
-  public void shouldFailOnInvalidArgument() throws Exception {
+  public void shouldFailOnInvalidArgument() {
     new ManagedThreadPoolTaskScheduler(null);
   }
 
   @Test
-  public void shouldVerifyAttributes() throws Exception {
+  public void shouldVerifyAttributes() {
     ThreadPoolTaskScheduler executor = new ThreadPoolTaskScheduler();
     try {
       executor.initialize();
