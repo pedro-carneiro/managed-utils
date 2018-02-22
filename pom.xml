@@ -4,7 +4,7 @@
 
   <groupId>com.pcarneiro.utilities</groupId>
   <artifactId>managed-utils</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1-SNAPSHOT</version>
 
   <name>${project.groupId}:${project.artifactId}</name>
   <description>Utility classes for exposing attributes</description>
@@ -31,7 +31,7 @@
     <developerConnection>scm:git:ssh://git@github.com/pedro-carneiro/managed-utils.git
     </developerConnection>
     <url>https://github.com/pedro-carneiro/managed-utils/tree/master</url>
-    <tag>managed-utils-0.1.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
