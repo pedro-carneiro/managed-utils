@@ -49,7 +49,7 @@
     <coverage.method.ratio>0.70</coverage.method.ratio>
 
     <!-- libraries -->
-    <spring.version>4.3.9.RELEASE</spring.version>
+    <spring.version>5.0.4.RELEASE</spring.version>
     <testng.version>6.9.10</testng.version>
 
     <!-- plugins -->
