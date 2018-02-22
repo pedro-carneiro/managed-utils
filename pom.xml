@@ -50,7 +50,7 @@
 
     <!-- libraries -->
     <spring.version>5.0.4.RELEASE</spring.version>
-    <testng.version>6.9.10</testng.version>
+    <testng.version>6.13.1</testng.version>
 
     <!-- plugins -->
     <jacoco-maven-plugin.version>0.7.9</jacoco-maven-plugin.version>
