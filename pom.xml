@@ -41,12 +41,12 @@
     <!-- build knobs -->
     <checkstyle.skip>false</checkstyle.skip>
     <jacoco.skip>false</jacoco.skip>
-    <coverage.branch.ratio>0.70</coverage.branch.ratio>
-    <coverage.class.ratio>0.70</coverage.class.ratio>
-    <coverage.complexity.ratio>0.70</coverage.complexity.ratio>
-    <coverage.instruction.ratio>0.70</coverage.instruction.ratio>
-    <coverage.line.ratio>0.70</coverage.line.ratio>
-    <coverage.method.ratio>0.70</coverage.method.ratio>
+    <coverage.branch.ratio>0.80</coverage.branch.ratio>
+    <coverage.class.ratio>0.80</coverage.class.ratio>
+    <coverage.complexity.ratio>0.80</coverage.complexity.ratio>
+    <coverage.instruction.ratio>0.80</coverage.instruction.ratio>
+    <coverage.line.ratio>0.80</coverage.line.ratio>
+    <coverage.method.ratio>0.80</coverage.method.ratio>
 
     <!-- libraries -->
     <spring.version>5.0.4.RELEASE</spring.version>
@@ -103,7 +103,7 @@
             <configuration>
               <rules>
                 <rule>
-                  <element>BUNDLE</element>
+                  <element>CLASS</element>
                   <limits>
                     <limit>
                       <counter>CLASS</counter>
