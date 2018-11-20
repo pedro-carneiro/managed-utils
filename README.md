@@ -1,4 +1,4 @@
-# Managed utilities [![Build Status](https://travis-ci.org/pedro-carneiro/managed-utils.svg?branch=master)](https://travis-ci.org/pedro-carneiro/managed-utils) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.pcarneiro.utilities/managed-utils/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.pcarneiro.utilities/managed-utils)
+# Managed utilities [![Build Status](https://travis-ci.org/pedro-carneiro/managed-utils.svg?branch=master)](https://travis-ci.org/pedro-carneiro/managed-utils) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.pcarneiro.utilities/managed-utils/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.pcarneiro.utilities/managed-utils) [![codecov.io](http://codecov.io/github/pedro-carneiro/managed-utils/coverage.svg?branch=master)](http://codecov.io/github/pedro-carneiro/managed-utils?branch=master)
 This project holds some utility classes that expose bean properties as JMX attributes. First and
 foremost, it holds classes that expose the queue sizes of some common thread pool implementations,
 since I was unable to find this done anywhere else.
