@@ -1,9 +1,10 @@
 package com.pcarneiro.utilities.managed;
 
-import static org.testng.Assert.*;
+import static org.testng.Assert.assertEquals;
 
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
+
 import org.testng.annotations.Test;
 
 /**

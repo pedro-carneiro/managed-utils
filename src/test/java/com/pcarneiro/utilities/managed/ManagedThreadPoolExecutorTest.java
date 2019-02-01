@@ -2,10 +2,11 @@ package com.pcarneiro.utilities.managed;
 
 import static org.testng.Assert.assertEquals;
 
+import org.testng.annotations.Test;
+
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
-import org.testng.annotations.Test;
 
 public class ManagedThreadPoolExecutorTest {
 
