@@ -50,7 +50,7 @@
 
     <!-- libraries -->
     <guava.version>24.0-jre</guava.version>
-    <spring.version>5.0.4.RELEASE</spring.version>
+    <spring.version>6.1.14</spring.version>
     <testng.version>6.13.1</testng.version>
 
     <!-- plugins -->
